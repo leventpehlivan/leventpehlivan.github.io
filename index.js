@@ -2,7 +2,7 @@ $(document).ready(function() {
 	// Initiate gifLoop for set interval
 	var refresh;
 	// Duration count in seconds
-	const duration = 1000 * 3;
+	const duration = 10000 * 3;
 	// Giphy API defaults
 	const giphy = {
 		baseURL: "https://api.giphy.com/v1/gifs/",
